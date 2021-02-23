@@ -137,7 +137,7 @@ let obj = {
   return message
 }}
 
-bot.command('/help@grajbot', (ctx) => {
+bot.command('/help', (ctx) => {
 
   ctx.telegram.sendMessage( ctx.message.chat.id, `Lista komend:
   /help
